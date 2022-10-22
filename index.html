@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- end of fonts -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="card">
+        <header class="card_header">
+          <picture class="card_header_pictures">
+            <source
+              media="(max-width:767px )"
+              srcset="images/image-header-mobile.jpg"
+            />
+            <img
+              src="images/image-header-desktop.jpg"
+              class="card_header_picture"
+              alt="header_image"
+            />
+          </picture>
+        </header>
+        <main class="card_main">
+          <h1 class="card_main_title">
+            Get <strong class="card_main_title-strong"> insights </strong> that
+            help your business grow.
+          </h1>
+          <p class="card_main_content">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <article class="card_main_stats_box">
+            <section class="card_main_stats">
+              <span class="card_main_stats_number">10k+</span>
+              companies
+            </section>
+            <section class="card_main_stats">
+              <span class="card_main_stats_number">314</span>
+              templates
+            </section>
+            <section class="card_main_stats">
+              <span class="card_main_stats_number">12m+</span>
+              queries
+            </section>
+          </article>
+        </main>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Daniel Millan</a>.
+      </div>
+    </div>
+  </body>
+</html>
