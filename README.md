@@ -23,11 +23,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop Design:
+
+![Desktop Design](https://user-images.githubusercontent.com/79281356/197354105-82c78fa7-ffa7-4a7f-8bdc-6fa0c2045b6e.png)
+
+Mobile Design:
+
+![Mobile design](https://user-images.githubusercontent.com/79281356/197354116-df9f4886-f304-4b9f-97d3-737b60034278.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/Millanotex/Millanotex-Challenge_Two.github.io]
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -43,7 +49,7 @@ Users should be able to:
 
 Doing this card was fun because I wanna try to use only flexbox because it is a part of CSS I want to understand better, the color over the background was interesting to make, although it was not the same I think it was a good solution
 
-This was the solution I implemented
+This was the solution I implemented for the color over the background
 
 ```css
 .card_header_pictures {
